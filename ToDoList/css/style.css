@@ -1,0 +1,57 @@
+#td_container{
+    width: 1000px;
+    margin: auto;
+    padding-top: 40px;  
+    background: #fff;
+    padding: 40px;
+}
+
+#sidebar{
+    float:  left;
+    width: 20%;
+    margin-top: 80px;
+    
+}
+#sidebar li a{
+    padding: 3px 5px;
+    padding-left: 15px;
+    margin-bottom: 2px;
+}
+#maincontent{
+    float:  right;
+    width: 80%;
+}
+#maincontent #head{
+    background: #f7f7f7f7;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    padding: 5px;
+    min-height: 80px;
+    line-height: 40px;
+}
+#maincontent #head h2{
+     float: left;
+}
+#maincontent #head #addmore{
+    float:  right;
+}
+#mainbody{
+    clear: both;
+    padding: 10px;
+}
+
+#content{
+    width: 600px;
+    margin: auto;
+}
+#form{
+    
+    padding: 10px;
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.register_form{
+    display: none;
+}
+
